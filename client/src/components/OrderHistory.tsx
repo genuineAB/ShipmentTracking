@@ -48,7 +48,7 @@ const OrderHistory: React.FC<OrderHistoryProps> = ({
 
             <ol className="relative ms-3 border-s border-gray-200 dark:border-gray-700">
               <li className="mb-10 ms-6">
-                <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-700 dark:ring-blue-800">
+                <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-700 dark:ring-blue-800 dark:text-white">
                   {orderItems?.deliveryStage > 2 ? <Check /> : <X />}
                 </span>
                 <h4 className="mb-0.5 text-base font-semibold text-black dark:text-white ">
@@ -60,7 +60,7 @@ const OrderHistory: React.FC<OrderHistoryProps> = ({
               </li>
 
               <li className="mb-10 ms-6 text-primary-700 dark:text-primary-500">
-                <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-700 dark:ring-blue-800">
+                <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-700 dark:ring-blue-800 dark:text-white">
                   {orderItems?.deliveryStage > 1 ? <Check /> : <Plane />}
                 </span>
                 <h4 className="mb-0.5 font-semibold dark:text-white">
@@ -71,7 +71,7 @@ const OrderHistory: React.FC<OrderHistoryProps> = ({
               </li>
 
               <li className="mb-10 ms-6 text-primary-700 dark:text-primary-500">
-                <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-700 dark:ring-blue-800">
+                <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-700 dark:ring-blue-800 dark:text-white">
                   {orderItems?.deliveryStage > 1 ? <Check /> : <Truck />}
                 </span>
                 <h4 className="mb-0.5 text-base font-semibold dark:text-white">
@@ -83,7 +83,7 @@ const OrderHistory: React.FC<OrderHistoryProps> = ({
               </li>
 
               <li className="mb-10 ms-6 text-primary-700 dark:text-primary-500">
-                <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-700 dark:ring-blue-800">
+                <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-700 dark:ring-blue-800 dark:text-white">
                   {orderItems?.deliveryStage > 0 ? (
                     <Check />
                   ) : (
@@ -101,7 +101,7 @@ const OrderHistory: React.FC<OrderHistoryProps> = ({
               </li>
 
               <li className="ms-6 text-primary-700 dark:text-primary-500">
-                <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-700 dark:ring-blue-800">
+                <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-700 dark:ring-blue-800 dark:text-white">
                   <Check />
                 </span>
                 <div>
