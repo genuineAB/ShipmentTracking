@@ -62,6 +62,11 @@ const ShipmentTracker: React.FC<ShipmentProps> = ({ currentStage }) => {
     <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-2xl w-full max-w-3xl mx-auto">
       <h2 className="text-xl font-semibold mb-4">Shipment Tracking</h2>
       <div className="flex items-center w-full justify-between relative">
+      <motion.div
+          className="absolute top-5 left-0 h-1 bg-gray-300"
+          animate={{ width: `${(currentStage / (shipmentStages.length - 1)) * 100}%`, backgroundColor: "#16a34a" }}
+          style={{ transition: "width 0.3s ease-in-out" }}
+        />
         {shipmentStages.map((stage, index) => (
           <div key={stage.id} className="flex flex-col items-center relative">
             <motion.div
@@ -75,11 +80,7 @@ const ShipmentTracker: React.FC<ShipmentProps> = ({ currentStage }) => {
             </p>
           </div>
         ))}
-        <motion.div
-          className="absolute top-5 left-0 h-1 bg-gray-300"
-          animate={{ width: `${(currentStage / (shipmentStages.length - 1)) * 100}%`, backgroundColor: "#16a34a" }}
-          style={{ transition: "width 0.3s ease-in-out" }}
-        />
+        
       </div>
     </div>
   );
