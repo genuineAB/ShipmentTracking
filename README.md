@@ -37,6 +37,7 @@ cd order-tracking-app
 To install dependencies for both parts of the app, run the following commands:
 
 ```bash
+npm run install           # Install application dependency: Concurrently
 npm run install-server    # Install server dependencies
 npm run install-client    # Install client dependencies
 ```
