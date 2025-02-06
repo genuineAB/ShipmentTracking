@@ -1,6 +1,6 @@
 # Order Tracking Application
 
-This is a full-stack application that tracks the delivery status of orders using a WebSocket server for real-time updates and a React frontend. The app provides live updates about order statuses like "Order Placed," "Payment Accepted," "In Transit," and "In Warehouse."
+This is a full-stack application that tracks the delivery status of orders using a WebSocket server for real-time updates and a React frontend. The app provides live updates about order statuses like "Order Placed," "Payment Accepted," "In Transit," and "In Warehouse." I incorporated a light and dark mode that adapts to your system Theme settings. Kindly change your theme settings to experience the difference.
 
 ## Project Structure
 
