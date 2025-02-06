@@ -51,7 +51,7 @@ const OrderHistory: React.FC<OrderHistoryProps> = ({
                 <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-700 dark:ring-blue-800">
                   {orderItems?.deliveryStage > 2 ? <Check /> : <X />}
                 </span>
-                <h4 className="mb-0.5 text-base font-semibold text-blue-700">
+                <h4 className="mb-0.5 text-base font-semibold text-black dark:text-white ">
                   Today
                 </h4> 
                 <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
@@ -63,7 +63,7 @@ const OrderHistory: React.FC<OrderHistoryProps> = ({
                 <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-700 dark:ring-blue-800">
                   {orderItems?.deliveryStage > 1 ? <Check /> : <Plane />}
                 </span>
-                <h4 className="mb-0.5 font-semibold">
+                <h4 className="mb-0.5 font-semibold dark:text-white">
                   {orderItems?.inWarehouse?.date},{" "}
                   {orderItems?.inWarehouse?.time}
                 </h4>
@@ -74,7 +74,7 @@ const OrderHistory: React.FC<OrderHistoryProps> = ({
                 <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-700 dark:ring-blue-800">
                   {orderItems?.deliveryStage > 1 ? <Check /> : <Truck />}
                 </span>
-                <h4 className="mb-0.5 text-base font-semibold">
+                <h4 className="mb-0.5 text-base font-semibold dark:text-white">
                   {orderItems?.inTransit?.date}, {orderItems?.inTransit?.time}
                 </h4>
                 <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
@@ -90,7 +90,7 @@ const OrderHistory: React.FC<OrderHistoryProps> = ({
                     <BadgeDollarSign />
                   )}
                 </span>
-                <h4 className="mb-0.5 font-semibold">
+                <h4 className="mb-0.5 font-semibold dark:text-white">
                   {orderItems?.paymentAccepted?.date},{" "}
                   {orderItems?.paymentAccepted?.time}
                 </h4>
@@ -105,7 +105,7 @@ const OrderHistory: React.FC<OrderHistoryProps> = ({
                   <Check />
                 </span>
                 <div>
-                  <h4 className="mb-0.5 font-semibold">
+                  <h4 className="mb-0.5 font-semibold dark:text-white">
                     {orderItems?.orderPlaced?.date},{" "}
                     {orderItems?.orderPlaced?.time}
                   </h4>

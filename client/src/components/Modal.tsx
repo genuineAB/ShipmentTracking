@@ -11,7 +11,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, children, onClose }) => {
 
   return (
     <div className={`fixed inset-0 z-50 flex items-center justify-center`}>
-      <div className="fixed inset-0 bg-black bg-opacity-50" />
+      <div className="fixed inset-0 bg-black  dark:bg-white opacity-50 " />
 
       <div
         className={`relative bg-[#151A29] rounded-lg shadow-lg  "w-[438px]
