@@ -30,7 +30,7 @@ The project consists of two main parts:
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/genuineAB/ShipmentTracking.git
-cd order-tracking-app
+cd ShipmentTracking
 ```
 
 ### 2. Install dependencies for both client and server
