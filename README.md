@@ -1,4 +1,3 @@
-```markdown
 # Order Tracking Application
 
 This is a full-stack application that tracks the delivery status of orders using a WebSocket server for real-time updates and a React frontend. The app provides live updates about order statuses like "Order Placed," "Payment Accepted," "In Transit," and "In Warehouse."
@@ -9,7 +8,7 @@ The project consists of two main parts:
 - **Server**: A siple Node.js WebSocket server that sends real-time order updates.
 - **Client**: A React frontend application that receives and displays these updates.
 
-```
+
 - server/          (Contains Node.js server code)
   - server.js      (WebSocket server code)
 - client/          (Contains React app code)
@@ -17,7 +16,7 @@ The project consists of two main parts:
   - public/        (Public assets)
   - package.json   (React app dependencies and scripts)
 - package.json     (Root level package file, including both client and server scripts)
-```
+
 
 ## Features
 
@@ -120,9 +119,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - This project is built using `ws` for WebSocket communication.
 - React is used for building the frontend.
 - Thanks to open-source libraries that made this project easier to develop.
-
-```
-
-You can copy and paste this directly into your `README.md` file.
-
-Let me know if you need any modifications or further assistance!
